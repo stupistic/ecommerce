@@ -1,0 +1,54 @@
+.login-Container {
+  color: black;
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/831243/pexels-photo-831243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.login-Wrapper {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+}
+.login-Title {
+  /* display: block; */
+  font: bold;
+  font-size: 30px;
+  font-weight: 300;
+}
+.login-Form {
+  display: flex;
+  flex-direction: column;
+}
+.login-Input {
+  min-width: 40%;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.login-Button {
+  display: inline-block;
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.login-Link {
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:380px){
+  .login-Wrapper{
+    width: 75%;
+  }
+  
+}
